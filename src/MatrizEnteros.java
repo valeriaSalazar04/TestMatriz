@@ -142,6 +142,11 @@ public class MatrizEnteros {
         
     }
     
+   /**
+    * Metodo que comprar si la cantidad de columnas en cada fila de la matriz existente es igual en la matriz que llega como parametro en el mismo orden
+    * @param m2
+    * @return true si sus posiciones son iguales
+    */ 
    public boolean comparoPosiciones (MatrizEnteros m2){
        int cont=0;
 //       MatrizEnteros m2=(MatrizEnteros)obj;
@@ -159,6 +164,12 @@ public class MatrizEnteros {
      
     return false;
 }
+   
+      /**
+       * Método que compara los elementos de las matrices 
+       * @param m
+       * @return true si sus elementos son iguales
+       */
       public boolean compararElementos (MatrizEnteros m){
           
           int cont =0;
